@@ -1,4 +1,7 @@
 # coding: utf-8
+import random
+import matplotlib.pyplot as plt
+import numpy as np
 
 ## Computational Economics Assignment 6 
 # Kushal Kumar Reddy 
@@ -173,6 +176,7 @@ plt.legend()
 
 plt.xlabel('Generations', fontsize=15)
 plt.ylabel('Fitness', fontsize=15)
+plt.savefig('fitness_generations.png')
 plt.show()
 
 
